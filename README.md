@@ -6,7 +6,7 @@ Pressing a different key will cycle through the buttons, turning off the previou
 A third key-LED pair is normal, but the fourth key will only turn on its corresponding LED if pressed quickly after the third.
 
 ## Schematic
-![schematic editor](img/schematic_editor.png)
+![schematic](img/schematic_editor.png)
 
 ## PCB View: Front
 ![front view](img/pcb_front.png)
