@@ -85,6 +85,180 @@ void loop() {
    if (digitalRead(BUT3) == HIGH) {
     but3time = millis();
     digitalWrite(LED3, HIGH);
+    delay(1000);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+
+    // morse code HELLO WORLD: H
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+
+    // E
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+    
+    // L (tich te tich tich .-..)
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+    // te
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+    
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+
+    // second L
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+    // te
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+    
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+
+    // O
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+
+    // W
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+
+    // O
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+
+    // R
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+
+    // L
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+    // te
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+    
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(1000);
+
+    // D
+    digitalWrite(LED3, HIGH);
+    delay(800);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+    delay(200);
+
+    digitalWrite(LED3, HIGH);
+    delay(400);
+    digitalWrite(LED3, LOW);
+
   }
   else {
     digitalWrite(LED3, LOW);
